@@ -136,7 +136,7 @@ Even complete evidence returns `trade_permission: false`.
 
 ## Event coverage and provenance
 
-Version 0.1.0 deliberately bundles only a narrow, auditable catalog:
+Version 0.1.1 deliberately bundles only a narrow, auditable catalog:
 
 - October 28, 2026 FOMC statement;
 - October 28, 2026 FOMC press conference;

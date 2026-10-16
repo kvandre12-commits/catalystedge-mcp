@@ -17,7 +17,12 @@ an election as permission to buy or sell an option.
 
 ## Prerequisite
 
-The user must separately install and configure the open-source CatalystEdge MCP server.
+The user must separately install and configure the open-source CatalystEdge MCP server:
+
+- Repository: https://github.com/kvandre12-commits/catalystedge-mcp
+- Audited release: https://github.com/kvandre12-commits/catalystedge-mcp/tree/v0.1.1
+- Installation and MCP configuration: follow the repository README.
+
 It runs locally over stdio. It needs no API key, broker, SharpEdge server, network
 listener, or proprietary market-data subscription.
 

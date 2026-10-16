@@ -5,7 +5,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / "dist" / "catalystedge-0.1.0.zip"
+ARCHIVE = ROOT / "dist" / "catalystedge-0.1.1.zip"
 
 
 def test_marketplace_artifact_is_deterministic_and_minimal():

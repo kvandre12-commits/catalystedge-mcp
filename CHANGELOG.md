@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 2026-10-16
+
+- Add repository, audited-release, and installation links to the marketplace skill.
+- Rebuild and re-audit the deterministic marketplace archive.
+
 ## 0.1.0 — 2026-10-16
 
 - Add source-backed bundled FOMC and election-window catalog.

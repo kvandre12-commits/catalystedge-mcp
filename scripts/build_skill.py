@@ -10,7 +10,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "marketplace" / "catalystedge"
 DIST = ROOT / "dist"
-ARCHIVE = DIST / "catalystedge-0.1.0.zip"
+ARCHIVE = DIST / "catalystedge-0.1.1.zip"
 MEMBERS = ("SKILL.md", "LICENSE")
 FIXED_TIMESTAMP = (2026, 1, 1, 0, 0, 0)
 
