@@ -1,0 +1,57 @@
+{
+  "schema": "catalystedge.event_catalog.v1",
+  "generated_at": "2026-10-16T00:00:00Z",
+  "events": [
+    {
+      "id": "fomc-2026-10-28-statement",
+      "type": "fomc_statement",
+      "title": "FOMC monetary-policy statement",
+      "starts_at": "2026-10-28T14:00:00-04:00",
+      "ends_at": "2026-10-28T14:15:00-04:00",
+      "importance": "high",
+      "breadth": "market_wide",
+      "affected_symbols": ["SPY", "QQQ", "IWM", "TLT"],
+      "source": {
+        "authority": "Board of Governors of the Federal Reserve System",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "checked_at": "2026-10-15T16:20:00Z",
+        "verification": "official_schedule"
+      },
+      "notes": "The official calendar lists the October 27-28 meeting. The statement is normally released at 2:00 p.m. ET. Confirm the release time on the event day."
+    },
+    {
+      "id": "fomc-2026-10-28-press-conference",
+      "type": "fomc_press_conference",
+      "title": "FOMC Chair press conference",
+      "starts_at": "2026-10-28T14:30:00-04:00",
+      "ends_at": "2026-10-28T15:30:00-04:00",
+      "importance": "high",
+      "breadth": "market_wide",
+      "affected_symbols": ["SPY", "QQQ", "IWM", "TLT"],
+      "source": {
+        "authority": "Board of Governors of the Federal Reserve System",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "checked_at": "2026-10-15T16:20:00Z",
+        "verification": "official_schedule"
+      },
+      "notes": "Treat separately from the statement because the second volatility impulse can begin during the press conference. Confirm the live start time on the event day."
+    },
+    {
+      "id": "us-midterm-2026-results-window",
+      "type": "election_results",
+      "title": "2026 U.S. midterm election results window",
+      "starts_at": "2026-11-03T18:00:00-05:00",
+      "ends_at": "2026-11-04T12:00:00-05:00",
+      "importance": "high",
+      "breadth": "market_wide",
+      "affected_symbols": ["SPY", "QQQ", "IWM", "TLT"],
+      "source": {
+        "authority": "USA.gov",
+        "url": "https://www.usa.gov/election-day",
+        "checked_at": "2026-10-16T00:00:00Z",
+        "verification": "official_date_analytical_window"
+      },
+      "notes": "November 3 is the official election date. The start/end timestamps are CatalystEdge analytical boundaries, not an official result-release schedule; result timing varies by jurisdiction."
+    }
+  ]
+}
